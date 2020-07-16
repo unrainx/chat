@@ -13,4 +13,6 @@
 #include <netdb.h>
 #include <netinet/in.h>
 
+std::string receive(int fd);
+
 #endif // !RAIN_NET_H__
